@@ -4,7 +4,7 @@ title: "My Journey with Outreachy+Ceph"
 date: 2018-08-14 00:00:00
 author: "Rajula Pavani"
 image: outreachy-logo.png
-tags:  Tech Python Internship Shell
+tags:  Tech 
 ---
 
 <p>Officially my Internship kicked off on May 14th 2018. It's already been almost weeks my internship started. </p>
