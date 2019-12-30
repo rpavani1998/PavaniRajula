@@ -4,7 +4,7 @@ title:      "Getting into Outreachy program..!!"
 date:       2018-05-03 00:00:00
 author:     "Rajula Pavani"
 image: outreachy-logo.png
-tags:   Tech Python Internship
+tags:   Tech 
 ---
 
 <p>Frankly, I never imagined myself blogging. But here I am starting my own blog as a part of my Internship. Earlier I have no much opinion on blogging but when I started exploring about Outreachy, I went through a lot of blogs which answered a lot of questions regarding opting an organization, choosing the right project, making a strong proposal and getting selected. This made me understand the puropse of doing it.</p>
