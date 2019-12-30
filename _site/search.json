@@ -1,9 +1,17 @@
 [
   
     {
+      "title"    : "The Saying I Always Believe In..",
+      "category" : "",
+      "tags"     : "Life",
+      "url"      : "/whatever-happens/",
+      "date"     : "2019-07-14 05:30:00 +0530"
+    } ,
+  
+    {
       "title"    : "My Journey with Outreachy+Ceph",
       "category" : "",
-      "tags"     : "Tech, Python, Internship, and Shell",
+      "tags"     : "Tech",
       "url"      : "/internship-work/",
       "date"     : "2018-08-14 05:30:00 +0530"
     } ,
@@ -11,7 +19,7 @@
     {
       "title"    : "Getting into Outreachy program..!!",
       "category" : "",
-      "tags"     : "Tech, Python, and Internship",
+      "tags"     : "Tech",
       "url"      : "/outreachy/",
       "date"     : "2018-05-03 05:30:00 +0530"
     } 

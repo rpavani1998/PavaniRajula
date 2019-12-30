@@ -72,7 +72,7 @@ Following are some of the functionalities the shell has.</p>
 
 <p>Though I was asked to work on the ceph teuthology testing tool but I had setup issues and also I came to the end of the internship, I could'nt do that instead I have completed the unit testing of the shell manually. Other than gthat I have completed the rest of the tasks as mentioned as per the internship description.</p>
 <p>
-<p>Here is the a demo of my work</p>
+<p>Here is a demo of my work</p>
 <iframe src="https://www.youtube.com/embed/tonJmvsZBDc" frameborder="0" allowfullscreen></iframe>
 </p>
 <p> This was one of the best experiences I ever had and was such a amazing learning expreience my mentor helped me with lot of patience and helped me understand things in a better way. Not just desinging, gathering, coding, testing and documenting I learned to communicating, multi-tasking, stress management and blogging too. I had to stop my contribution as I became busy in my academic work as I was in my 3rd year end, placements, project submissions and so on. Still I looked back into the project whenever possible.</p>
