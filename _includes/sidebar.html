@@ -23,36 +23,6 @@
   {% else %}
   {% endif %}
 
-  <div class="widget widget-social">
-    <h3 class="widget-title">Subscribe & Follow</h3>
-    <ul class="social-profiles list-reset">
-      {% if site.facebook %}
-      <li class="social-profiles-item">
-        <a href="{{ site.facebook }}" class="social-profiles-link"><i class="ion ion-logo-facebook"></i></a>
-      </li>
-      {% else %} {% endif %}
-
-       {% if site.twitter %}
-      <li class="social-profiles-item">
-        <a href="{{ site.twitter }}" class="social-profiles-link"><i class="ion ion-logo-twitter"></i></a>
-      </li>
-      {% else %} {% endif %}
-
-      {% if site.instagram %}
-      <li class="social-profiles-item">
-        <a href="{{ site.instagram }}" class="social-profiles-link"><i class="ion ion-logo-instagram"></i></a>
-      </li>
-      {% else %} {% endif %}
-
-      {% if site.pinterest %}
-      <li class="social-profiles-item">
-        <a href="{{ site.pinterest }}" class="social-profiles-link"><i class="ion ion-logo-pinterest"></i></a>
-      </li>
-      {% else %} {% endif %}
-    </ul>
-  </div>
-
-
   {% if site.instafeed == true %}
   <div class="widget widget-instagram">
     <h3 class="widget-title">Instagram</h3>
@@ -64,12 +34,22 @@
   {% endif %}
 
   <div class="widget widget-instagram">
+      <h3 class="widget-title">Twitter</h3>
     <div class="instagram-box">
       <ul id="instafeed" class="instagram-grid list-reset clearfix"></ul>
-      <a class="twitter-timeline" data-width="356" data-height="356" data-theme="dark" href="https://twitter.com/PavaniRajula?ref_src=twsrc%5Etfw">Tweets by PavaniRajula</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a class="twitter-timeline" data-width="356" data-height="356" data-theme="dark"  data-chrome="transparent nofooter noborders noheader noscrollbar" href="https://twitter.com/PavaniRajula?ref_src=twsrc%5Etfw">Tweets by PavaniRajula</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
 
+
+  <div class="widget widget-instagram">
+      <h3 class="widget-title">SoundCloud</h3>
+    <div class="instagram-box">
+      <ul id="instafeed" class="instagram-grid list-reset clearfix"></ul>
+      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/667464308&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </div>
+  </div>
+  
   <div class="widget widget-tags">
     <h3 class="widget-title">Tag Cloud</h3>
     {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{%
@@ -83,4 +63,34 @@
     </ul>
   </div>
   
+  <div class="widget widget-social">
+      <h3 class="widget-title">Subscribe & Follow</h3>
+      <ul class="social-profiles list-reset">
+        {% if site.facebook %}
+        <li class="social-profiles-item">
+          <a href="{{ site.facebook }}" class="social-profiles-link"><i class="ion ion-logo-facebook"></i></a>
+        </li>
+        {% else %} {% endif %}
+  
+         {% if site.twitter %}
+        <li class="social-profiles-item">
+          <a href="{{ site.twitter }}" class="social-profiles-link"><i class="ion ion-logo-twitter"></i></a>
+        </li>
+        {% else %} {% endif %}
+  
+        {% if site.instagram %}
+        <li class="social-profiles-item">
+          <a href="{{ site.instagram }}" class="social-profiles-link"><i class="ion ion-logo-instagram"></i></a>
+        </li>
+        {% else %} {% endif %}
+  
+        {% if site.pinterest %}
+        <li class="social-profiles-item">
+          <a href="{{ site.pinterest }}" class="social-profiles-link"><i class="ion ion-logo-pinterest"></i></a>
+        </li>
+        {% else %} {% endif %}
+      </ul>
+    </div>
+  
+
 </aside> <!-- /.sidebar -->

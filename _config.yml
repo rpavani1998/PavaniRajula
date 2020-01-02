@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
 
-title: Pavani Rajula 
-description: Pavani Rajula 
+title: Pavani Rajula - Blog
+description: A space to express all my hobbies, interests, experiences, musings and tinkerings.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
